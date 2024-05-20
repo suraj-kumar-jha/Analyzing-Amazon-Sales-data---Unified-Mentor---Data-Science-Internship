@@ -3,13 +3,24 @@ _____________________________________________________
 
 #### Associated with Unified Mentor Private Limited
 
+### Tools Used:-
+--------------------------
+
+1. Tableau: For data visualization and interactive dashboards.
+   
+2. MySQL: For database management and data querying.
+   
+3. MS Excel: For data cleaning and analysis.
+   
+4. MS Word: For documenting findings and creating reports.
+
 ### TABLE OF CONTENTS:-
 __________________________
 
 - [KPI'S REQUIREMENT](#kpis-requirement)
 - [CHARTS REQUIREMENT](#charts-requirement)
 - [AMAZON SALES SQL QUERIES](#amazon-sales-sql-queries)
-- [PIZZA SALES CHARTS](#pizza-sales-charts)
+- [SALES CHARTS](#sales-charts)
 - [CONCLUSION](#conclusion)
 - [IMPROVING SALES AND PROFITABILITY](#improving-sales-and-profitability)
 - [DASHBOARD 1](#dashboard-1)
@@ -128,7 +139,7 @@ FROM `AMAZON SALES DATA`;
 ```
 <img width="233" alt="Screenshot 2024-05-20 at 9 08 00 AM" src="https://github.com/suraj-kumar-jha/Analyzing_Amazon_Sales_data---Unified_Mentor---Data_Science-Internship/assets/155900363/96e0c70e-35d4-4982-961a-de0644acd769">
 
-### PIZZA SALES CHARTS
+### SALES CHARTS
 ________________________
 
 #### 1. MONTH VS TOTAL REVENUE & TOTAL PROFIT:-
