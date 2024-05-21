@@ -14,6 +14,7 @@ _____________________________________________________
    
 4. MS Word: For documenting findings and creating reports.
 
+---------------------------
 ### TABLE OF CONTENTS:-
 __________________________
 
@@ -26,12 +27,13 @@ __________________________
 - [DASHBOARD 1](#dashboard-1)
 - [DASHBOARD 2](#dashboard-2)
 
-  
+---------------------------
 ### PROBLEM STATEMENT:-
 ___________________________
 
 In the fast-paced realm of modern business, effectively managing sales has become paramount for companies seeking to reduce costs, maximize profits, and outshine competitors. Today, sales management stands as the cornerstone of commercial success, demanding keen attention and innovative strategies to navigate the complexities of the contemporary market landscape.
 
+---------------------------
 ### KPI’S REQUIREMENT
 _______________________
 
@@ -73,6 +75,7 @@ _______________________
 
 <img width="636" alt="Screenshot 2024-05-20 at 8 38 43 AM" src="https://github.com/suraj-kumar-jha/Analyzing_Amazon_Sales_data---Unified_Mentor---Data_Science-Internship/assets/155900363/ea4f3467-532b-4d25-a5b2-0d1c22595dae">
 
+---------------------------
 ### CHARTS REQUIREMENT
 _________________________
 
@@ -97,6 +100,7 @@ _________________________
 #### 7. Region vs Total Revenue & Total Profit:
 • Comparing revenue and profit by region guides strategic decisions on market penetration and resource allocation.
 
+---------------------------
 ### AMAZON SALES SQL QUERIES
 ___________________________
 
@@ -139,6 +143,7 @@ FROM `AMAZON SALES DATA`;
 ```
 <img width="233" alt="Screenshot 2024-05-20 at 9 08 00 AM" src="https://github.com/suraj-kumar-jha/Analyzing_Amazon_Sales_data---Unified_Mentor---Data_Science-Internship/assets/155900363/96e0c70e-35d4-4982-961a-de0644acd769">
 
+---------------------------
 ### SALES CHARTS
 ________________________
 
@@ -155,6 +160,8 @@ ORDER BY TOTAL_PROFIT DESC;
 <img width="591" alt="Screenshot 2024-05-20 at 8 45 05 AM" src="https://github.com/suraj-kumar-jha/Analyzing_Amazon_Sales_data---Unified_Mentor---Data_Science-Internship/assets/155900363/57770a57-3c18-4227-bcc8-b6cbaee4f577">
 
 <img width="593" alt="Screenshot 2024-05-20 at 8 46 57 AM" src="https://github.com/suraj-kumar-jha/Analyzing_Amazon_Sales_data---Unified_Mentor---Data_Science-Internship/assets/155900363/139ce61f-3681-4a00-9baf-7bf7d1c15116">
+
+---------------------------
 
 #### 2. SALES CHANNEL VS TOTAL REVENUE:-
 ```
@@ -178,6 +185,8 @@ ORDER BY TOTAL_PROFIT DESC;
 <img width="528" alt="Screenshot 2024-05-20 at 8 51 25 AM" src="https://github.com/suraj-kumar-jha/Analyzing_Amazon_Sales_data---Unified_Mentor---Data_Science-Internship/assets/155900363/50eea3de-1d88-429d-9377-b67408bc55e1">
 
 
+---------------------------
+
 #### 4. ITEM TYPES VS TOTAL REVENUE:-
 ```
 SELECT `ITEM TYPE` AS ITEM_TYPES,CAST(SUM(`TOTAL REVENUE`) AS DECIMAL(10,2)) AS TOTAL_REVENUE
@@ -190,6 +199,8 @@ ORDER BY TOTAL_REVENUE DESC;
 
 <img width="546" alt="Screenshot 2024-05-20 at 8 54 20 AM" src="https://github.com/suraj-kumar-jha/Analyzing_Amazon_Sales_data---Unified_Mentor---Data_Science-Internship/assets/155900363/73a30ca5-62e8-495e-bf3f-36a43564652f">
 
+---------------------------
+
 #### 5. ITEM TYPES VS TOTAL PROFIT:-
 ```
 SELECT `ITEM TYPE` AS ITEM_TYPES,CAST(SUM(`TOTAL PROFIT`) AS DECIMAL(10,2)) AS TOTAL_PROFIT
@@ -201,6 +212,8 @@ ORDER BY TOTAL_PROFIT DESC;
 
 <img width="535" alt="Screenshot 2024-05-20 at 9 01 03 AM" src="https://github.com/suraj-kumar-jha/Analyzing_Amazon_Sales_data---Unified_Mentor---Data_Science-Internship/assets/155900363/6b4d89a9-b902-4482-990e-7ba23aaef4e8">
 
+---------------------------
+
 #### 6. REGION VS TOTAL ITEMS SOLD:-
 ```
 SELECT (`REGION`) AS REGION,SUM(`UNITS SOLD`) AS TOTAL_ITEMS_SOLD FROM `AMAZON SALES DATA`
@@ -211,6 +224,7 @@ ORDER BY TOTAL_ITEMS_SOLD DESC;
 
 <img width="613" alt="Screenshot 2024-05-20 at 9 02 43 AM" src="https://github.com/suraj-kumar-jha/Analyzing_Amazon_Sales_data---Unified_Mentor---Data_Science-Internship/assets/155900363/4ed0e382-cba2-4d5b-ab87-c7b86c3f3714">
 
+---------------------------
 
 #### 7. REGION VS TOTAL REVENUE & TOTAL PROFIT:-
 ```
@@ -223,16 +237,19 @@ ORDER BY TOTAL_PROFIT DESC;
 
 <img width="629" alt="Screenshot 2024-05-20 at 9 04 09 AM" src="https://github.com/suraj-kumar-jha/Analyzing_Amazon_Sales_data---Unified_Mentor---Data_Science-Internship/assets/155900363/8f25683e-20fe-4f5a-aa48-34a932847cd6">
 
+----------------
 ### Dashboard 1
 ________________
 
 <img width="639" alt="Screenshot 2024-05-20 at 9 13 13 AM" src="https://github.com/suraj-kumar-jha/Analyzing_Amazon_Sales_data---Unified_Mentor---Data_Science-Internship/assets/155900363/def5f561-3300-4bb9-a53b-6828d19390e5">
 
+----------------
 ### Dashboard 2
 ________________
 
 <img width="634" alt="Screenshot 2024-05-20 at 9 13 49 AM" src="https://github.com/suraj-kumar-jha/Analyzing_Amazon_Sales_data---Unified_Mentor---Data_Science-Internship/assets/155900363/3fdf93ee-5345-4048-a36b-a36aed81b8ec">
 
+-------------------
 ### CONCLUSION
 ___________________
 
@@ -246,7 +263,7 @@ ___________________
 
 §  Sub-Saharan Africa and Europe emerge as the regions with the highest total revenue and total profit, emphasizing the need to focus resources and strategies on these regions for sustained profitability.
 
-
+-------------------------------------------
 ### IMPROVING SALES AND PROFITABILITY
 ___________________________________________
 
@@ -264,6 +281,6 @@ ___________________________________________
 
 
 
---------------------------------------------***************************************---------------------------------------------------
+--------------------------******************************-----------------------------
 
 
